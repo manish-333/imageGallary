@@ -44,10 +44,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
     gap: 4vh;
     flex-wrap: wrap;
-    padding: 0px 60px;
+    
     
     
    }
