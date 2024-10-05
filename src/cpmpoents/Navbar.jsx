@@ -23,7 +23,7 @@ const Navbar = () => {
     // Cleanup event listener when component unmounts
     return () => {
       menuToggle.removeEventListener("click", toggleMenu);
-    };
+    }; 
   }, []);
 
   return (

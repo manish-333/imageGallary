@@ -5,6 +5,11 @@ import './App.css'
 import Navbar from './cpmpoents/Navbar'
 import Cart from './cpmpoents/Cart'
 import Hero from './cpmpoents/Hero'
+import MoreCart from './cpmpoents/MoreCart'
+import Cartnext from './cpmpoents/Cartnext'
+
+
+
 
 function App() {
 
@@ -15,6 +20,8 @@ function App() {
  <Navbar></Navbar>
  <Hero></Hero>
  <Cart></Cart>
+ <MoreCart ></MoreCart>
+<Cartnext></Cartnext>
 
  </div>
     </>

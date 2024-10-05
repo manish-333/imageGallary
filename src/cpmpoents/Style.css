@@ -40,7 +40,7 @@
    .maincart{
     width: 100%;
     height: auto;
-    background-color: gray;
+    /* background-color: gray; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +79,7 @@
 .hero{
   width: 100%;
   height: 400px;
-  background-color: red;
+  /* background-color: red; */
 
 }
 .hero img{
@@ -87,6 +87,51 @@
   height: 100%;
 
 }
+.MoreCart {
+  width: 100%;
+  height: 100px;
+  /* background-color:  palevioletred; */
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ font-size: 30px;
+
+}
+
+.cartnext{
+  width: 100%;
+  min-height: 400px;
+  /* background-color: gray; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 4vh;
+}
+
+.inside{
+  width: 350px;
+  height: 350px;
+  /* background-color: yellow; */
+}
+.top{
+width: 100%;
+height: 250px;
+/* background-color: green; */
+}
+.bottom{
+  width: 100%;
+  height: 30%;
+  /* background-color: aqua; */
+  padding: 10px;
+}
+.top img{
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+  }
+
    @media (max-width:601px) {
     .nav ul li{
 display: none;
@@ -119,5 +164,9 @@ display: none;
     #menuToggle{
       display: block;
       font-size: 30px;
+ 
+    }
+    .cartnext{
+      flex-direction: column;
     }
    }
